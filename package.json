@@ -1,0 +1,17 @@
+{
+  "name": "minitwitter",
+  "version": "1.0.0",
+  "description": "A Mini Twitter application",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=4000 nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rudolph Harry",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  }
+}
